@@ -85,7 +85,7 @@ for row_number in range(3):
 
         # Calculate th Y position
         # This is the new, important part!
-        # W start at y=200 and move down 25 pixels for eack new row
+        # We start at y=200 and move down 25 pixels for eack new row
         y = 260 - (row_number * 70)
 
         brick.goto(x, y)
